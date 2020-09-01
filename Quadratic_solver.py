@@ -23,3 +23,9 @@ while loop==0:
         else:
             ans='Two solutions, x={} and x={}'
             print(ans.format(ans_pos, ans_neg))
+    end_con = input('Press 1 then enter to solve another, or press 0 then enter to exit.')
+    if end_con == 1:
+        pass
+    else:
+        exit()
+    
